@@ -1,6 +1,6 @@
 # 5x5-TicTacToe-RL-Epsilon-Greedy
 
-Randomly Trained Agent vs Random Agent:
+Epsilon Greedy Trained Agent vs Random Agent:
 
 Trained over 400,000 games with a decreasing value for epsilon. Where epsilon represents the probability that for each move in a training game, a random rather than a greedy move is selected.
 
