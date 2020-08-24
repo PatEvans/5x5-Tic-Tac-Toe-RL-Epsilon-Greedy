@@ -4,7 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 from keras.utils import to_categorical
 #trainingData consists of a number of game, result pairs
-#it formats these pairs into tensors for the neural network
+#it formats these pairs into numpy arrays for the neural network
 def compileToNumpy(trainingData):
     x=[]
     y=[]
