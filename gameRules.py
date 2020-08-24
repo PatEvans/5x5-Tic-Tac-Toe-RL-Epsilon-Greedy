@@ -1,10 +1,10 @@
 import copy
 
 #Function terminate takes in board as list
-#returns 1 if X has won
-#returns 2 if O has won
-#returns 3 if draw
-#returns 0 if no result
+#returns 0 if X has won
+#returns 1 if O has won
+#returns 2 if draw
+#returns -1 if no result
 def terminate(board):
     #check horizontal
     for x in board:
