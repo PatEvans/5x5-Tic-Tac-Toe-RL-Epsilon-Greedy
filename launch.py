@@ -10,7 +10,7 @@ neural.createModel()
 option=input("Do you want to train a model or load a model? ( t / l )")
 
 if(option=="t"):
-    #produce training data via random policy
+    #produce training data via epsilon greedy policy
     count=0
     increment=0
     for i in range(0,40):
