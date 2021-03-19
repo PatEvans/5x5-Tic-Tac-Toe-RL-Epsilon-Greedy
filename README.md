@@ -23,3 +23,4 @@ Model drew: 1
 
 Win Rate: 82%
 
+Run launch.py to start the program.
